@@ -42,17 +42,5 @@ $(document).ready(function() {
     	});
 	});
 
-	$(".home-button").hover(
-		function() {
-			$(this).css("opacity", ".7");
-		}, function() {
-			$(this).css("opacity", "1");
-		});
-
-	$(".elem:first-child").click( function() {
-		 $('html, body').animate({
-        	'scrollTop' : $(".rectangle:first-child").position().top
-    	});
-	});
 
 });
