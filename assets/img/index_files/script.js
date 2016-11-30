@@ -4,7 +4,7 @@ $(document).ready(function() {
 		function () {
 			$(this).addClass("active");
 		}, function () {
-			$(this).removeClass("active");
+			$(this).removeClass('active');
 		}
 	);
 
@@ -12,7 +12,7 @@ $(document).ready(function() {
 		function () {
 			$(this).addClass("active");
 		}, function () {
-			$(this).removeClass("active");
+			$(this).removeClass('active');
 		}
 	);
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
 		function () {
 			$(this).addClass("active");
 		}, function () {
-			$(this).removeClass("active");
+			$(this).removeClass('active');
 		}
 	);
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
 		function () {
 			$(this).addClass("active");
 		}, function () {
-			$(this).removeClass("active");
+			$(this).removeClass('active');
 		}
 	);
 
@@ -58,8 +58,11 @@ $(document).ready(function() {
 
 	$(".container").hover(
 		function() {
-			$(this).css("opacity", "0.5");
-		}, function() {
 			$(this).css("opacity", "1");
+		}, function() {
+			$(this).css("opacity", ".5");
 		});
+			
+
+
 });
